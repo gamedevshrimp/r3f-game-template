@@ -3,7 +3,7 @@ export const Level2Scene = () => {
 		<>
 			<mesh>
 				<sphereGeometry />
-				<meshNormalMaterial />
+				<meshNormalMaterial wireframe />
 			</mesh>
 		</>
 	);

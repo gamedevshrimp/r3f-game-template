@@ -8,7 +8,15 @@ interface MenuButtonUIType {
 export const MenuButtonUI = ({ id, name }: MenuButtonUIType) => {
 	const setScene = useSceneStore((s) => s.setScene);
 	return (
-		<button className='p-2 rounded-xl bg-white' onClick={() => setScene(id)}>
+		<button
+			className='
+			p-2 
+			rounded-xl 
+			bg-white 
+			m-2 
+			max-w-24 
+			cursor-pointer'
+			onClick={() => setScene(id)}>
 			{name}
 		</button>
 	);
